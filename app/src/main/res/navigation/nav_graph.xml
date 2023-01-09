@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/notesFragment">
+
+    <fragment
+        android:id="@+id/notesFragment"
+        android:name="com.example.dday.ui.Fragments.NotesFragment"
+        android:label="Notes"
+        tools:layout="@layout/fragment_notes" >
+        <action
+            android:id="@+id/action_homeFragment_to_editNotesfragment"
+            app:destination="@id/editNotesfragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_createNotesFragment"
+            app:destination="@id/createNotesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createNotesFragment"
+        android:name="com.example.dday.ui.Fragments.CreateNotesFragment"
+        android:label="Create Note"
+        tools:layout="@layout/fragment_create_notes" >
+        <action
+            android:id="@+id/action_createNotesFragment_to_notesFragment"
+            app:destination="@id/notesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editNotesfragment"
+        android:name="com.example.dday.ui.Fragments.EditNotesfragment"
+        android:label="Update Note"
+        tools:layout="@layout/fragment_edit_notesfragment" >
+        <action
+            android:id="@+id/action_editNotesfragment_to_notesFragment"
+            app:destination="@id/notesFragment" />
+        <argument
+            android:name="data"
+            app:argType="com.example.dday.Model.Notes" />
+    </fragment>
+</navigation>

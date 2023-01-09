@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.dday">
+    <!-- <uses-permission android:name="android.permission.INTERNET"/> -->
+    <!-- <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="false"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:screenOrientation="portrait"
+        android:theme="@style/Theme.Dday"
+        tools:targetApi="33">
+
+        <activity
+            android:name=".TutorialScreen"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SwipeFOX" />
+        <activity
+            android:name=".Tutorial.Intro"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SwipeFOX">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutApp"
+            android:exported="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Swipe"
+            android:exported="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Sample"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.DesUbeHalaya"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.DesTuron"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.DesSapinSapin"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.DesMinatamisNaSaging"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.DesMajaBlanca"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.DesMaisConYelo"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.DesLecheFlan"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.DesHaloHalo"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.DesGinataangBiloBilo"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.DesFilipinoFruitSalad"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.DesCarioca"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.DesBukoPie"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.DesBukoPandan"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.DesBiko"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.LnSisig"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.LnSinigang"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.LnPinakbet"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.LnPancit"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.LnLumpia"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.LnLechon"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.LnKareKare"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.LnKalderata"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.LnDinuguan"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.LnCrispyPata"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.LnBulalo"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.LnBarbecue"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.LnAdobo"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.BrTusilog"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.BrTosilog"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.BrTortangTalong"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.BrTapsilog"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.BrShangsilog"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.BrLongsilog"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.BrHotsilog"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.BrDaingNaBangus"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.BrCornsilog"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.BrChiksilog"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.BrGinisangKamatis"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.BrArrozCaldo"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Notify"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".A_FoodAdapter.Desserts"
+            android:exported="true"
+            android:label="Desserts"
+            android:parentActivityName=".Open"
+            android:theme="@style/Material"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".A_FoodAdapter.Lunch"
+            android:exported="true"
+            android:label="Lunch and Dinner"
+            android:parentActivityName=".Open"
+            android:theme="@style/Material"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".A_FoodAdapter.Breakfast"
+            android:exported="true"
+            android:label="Breakfast"
+            android:parentActivityName=".Open"
+            android:theme="@style/Material"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".UpdateActivity"
+            android:exported="true"
+            android:label="Update Meal Plan"
+            android:parentActivityName=".Calendar"
+            android:theme="@style/Material"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".AddActivity"
+            android:exported="true"
+            android:label="Create Meal Plan"
+            android:parentActivityName=".Calendar"
+            android:theme="@style/Material"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Calendar"
+            android:exported="false"
+            android:label="Meal Planner"
+            android:theme="@style/Material"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.Item2Activity"
+            android:exported="false"
+            android:theme="@style/Dark"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".All_Recipes.Item1Activity"
+            android:exported="false"
+            android:theme="@style/Sample"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Food"
+            android:exported="true"
+            android:label="All Recipes"
+            android:theme="@style/Material"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Open"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Dday" /> <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashScreen" />
+        <activity
+            android:name=".Manual.ScreenFour"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Dark" />
+        <activity
+            android:name=".Manual.ScreenThree"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Dark" />
+        <activity
+            android:name=".Manual.ScreenTwo"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Dark" />
+        <activity
+            android:name=".Manual.ScreenOne"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Dark" />
+        <activity
+            android:name=".Manual.Welcome"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Dark" /> <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <activity
+            android:name=".Manual.Empty"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Dark" /> <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <activity
+            android:name=".Notes"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Material"
+            android:windowSoftInputMode="adjustPan" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".Alarm.RemindersActivity"
+            android:exported="true"
+            android:label="Meal Planner"
+            android:theme="@style/Notification"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait"/>
+
+        <service
+            android:name=".Alarm.NotificationService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <receiver
+            android:name=".Alarm.NotificationReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

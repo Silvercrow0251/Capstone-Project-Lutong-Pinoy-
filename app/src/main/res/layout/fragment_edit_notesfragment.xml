@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:fillViewport="true"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp">
+
+            <!--        <Spinner-->
+            <!--            android:id="@+id/editTitle"-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="50dp"-->
+            <!--            android:entries="@array/Meal_Type"/>-->
+
+            <EditText
+                android:id="@+id/editTitle"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:fontFamily="@font/poppins"
+                android:hint="@string/title"
+                android:inputType="textPersonName"
+                android:maxLength="30"
+                android:maxLines="1"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="8dp"
+                android:textColor="#4a4b4d"
+                android:textColorHint="@drawable/selector"
+
+                android:textSize="16dp"
+                android:textStyle="normal" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="#EDF0F3" />
+
+            <EditText
+                android:id="@+id/editSubTitle"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:fontFamily="@font/poppins"
+                android:hint="@string/subtitle"
+                android:inputType="textPersonName"
+                android:maxLength="25"
+                android:maxLines="1"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="8dp"
+                android:textColor="#4a4b4d"
+                android:textColorHint="@drawable/selector"
+
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:visibility="gone"
+                android:layout_height="1dip"
+                android:background="#EDF0F3" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/pGreen"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/green_dot" />
+
+                <ImageView
+                    android:id="@+id/pYellow"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="15dp"
+                    android:background="@drawable/yellow_dot" />
+
+                <ImageView
+                    android:id="@+id/pRed"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="15dp"
+                    android:background="@drawable/red_dot" />
+
+            </LinearLayout>
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="1000dp"
+                android:scrollbars="none"
+                android:fillViewport="true">
+
+                <EditText
+                    android:id="@+id/editNotes"
+                    android:layout_width="match_parent"
+                    android:layout_height="450dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/input_container"
+                    android:fontFamily="@font/poppins"
+                    android:gravity="start"
+                    android:hint="@string/notes"
+                    android:inputType="textMultiLine"
+                    android:isScrollContainer="true"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="15dp"
+                    android:paddingBottom="8dp"
+                    android:scrollbars="vertical"
+                    android:textColor="#4a4b4d"
+                    android:textSize="16sp"
+                    android:textStyle="normal" />
+            </androidx.core.widget.NestedScrollView>
+
+        </LinearLayout>
+
+        <!--        android:textCursorDrawable="@drawable/color_cursor"-->
+        <!--        android:textColorHighlight ="@color/black"-->
+
+    </androidx.core.widget.NestedScrollView>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnSaveNotes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_margin="15dp"
+            android:contentDescription="@string/save_notes"
+            android:src="@drawable/ic_baseline_done_24"
+            app:backgroundTint="@color/Orange"
+            app:backgroundTintMode="screen"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:maxImageSize="28dp"
+            app:tint="@android:color/white"
+            tools:ignore="RtlHardcoded" />
+
+<!--        <ImageButton-->
+<!--            android:id="@+id/share"-->
+<!--            android:layout_width="19.8dp"-->
+<!--            android:layout_height="19.8dp"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:layout_marginEnd="24dp"-->
+<!--            android:background="@drawable/ic_share"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:tint="@color/Orange" />-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</FrameLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/drawable-v24/ic_add.xml" value="0.293" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/drawable-v24/ic_baseline_delete_24.xml" value="0.293" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/drawable/ic_add.xml" value="0.293" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/drawable/ic_delivery.xml" value="0.353" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/drawable/ic_foody.xml" value="0.353" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/drawable/ic_notification.xml" value="0.293" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/drawable/ic_screen_01_v3.xml" value="0.2525" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/drawable/ic_screen_02.xml" value="0.2525" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/drawable/ic_screen_03.xml" value="0.2525" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/drawable/ic_search_white.xml" value="0.183" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/drawable/ic_share.xml" value="0.293" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/drawable/menu_background.xml" value="0.2525" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_add.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_br_arroz_caldo.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_br_chiksilog.xml" value="0.33" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_br_cornsilog.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_br_daing.xml" value="0.1675925925925926" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_br_daing_na_bangus.xml" value="0.25" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_br_ginisang_kamatis_at_itlog.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_br_hotsilog.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_br_longsilog.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_br_shangsilog.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_br_tapsilog.xml" value="0.33" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_br_tortang_talong.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_br_tosilog.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_br_tusilog.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_breakfast.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_calendar.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_des_biko.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_des_buko_pandan.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_des_buko_pie.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_des_carioca.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_des_filipino_fruit_salad.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_des_ginataang_bilo_bilo.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_des_halo_halo.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_des_leche_flan.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_des_mais_con_yelo.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_des_maja_blanca.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_des_minatamis_na_saging.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_des_sapin_sapin.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_des_turon.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_des_ube_halaya.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_desserts.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_desserts2.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_empty.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_food.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_intro.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_intro2.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_item1.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_item2.xml" value="0.25925925925925924" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_ln_adobo.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_ln_barbecue.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_ln_bulalo.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_ln_crispy_pata.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_ln_dinuguan.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_ln_kalderata.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_ln_kare_kare.xml" value="0.24450146627565983" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_ln_lechon.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_ln_lumpia.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_ln_pancit.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_ln_pinakbet.xml" value="0.33" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_ln_sinigang.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_ln_sisig.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_lunch.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_main.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_notes.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_notification_receiver.xml" value="0.21296296296296297" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_notification_service.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_open.xml" value="0.25" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_reminders.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_sample.xml" value="0.17592592592592593" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_screen_four.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_screen_one.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_screen_three.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_screen_two.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_snacks.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_splash.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_splash_screen.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_swipe.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_swipe_left.xml" value="0.3375" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_tutorial.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_tutorial_screen.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_update.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_welcome.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/activity_welcome2.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/content_reminders.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/fragment_create_notes.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/fragment_edit_notesfragment.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/fragment_first_screen.xml" value="0.33" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/fragment_frag_one.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/fragment_notes.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/fragment_rfsd.xml" value="0.33" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/fragment_second.xml" value="0.25" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/fragment_second_screen.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/fragment_splash.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/fragment_third_screen.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/fragment_view_pager.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/item_notes.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/my_row.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/recipe_items.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/reminder_list_row.xml" value="0.33" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/row_items.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/sample.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/layout/slider_layout.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/menu/bottom_nav_menu_v2.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/menu/delete_menu.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/menu/delete_menu_v2.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/menu/mainmenu.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/menu/menu.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/menu/menu_item.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/menu/menu_overflow.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/menu/menu_v2.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/menu/my_menu.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/menu/ra_action_view_menu.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/AndroidStudioProjects/Dday/app/src/main/res/menu/search_menu.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/Downloads/breakfast/Dday/app/src/main/res/layout/activity_add.xml" value="0.6416349809885932" />
+        <entry key="..\:/Users/jeans/Downloads/breakfast/Dday/app/src/main/res/layout/activity_arroz_caldo.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/Downloads/breakfast/Dday/app/src/main/res/layout/activity_br_arroz.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/Downloads/breakfast/Dday/app/src/main/res/layout/activity_br_arroz_caldo.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/Downloads/breakfast/Dday/app/src/main/res/layout/activity_br_ginisang_kamatis_at_itlog.xml" value="0.33" />
+        <entry key="..\:/Users/jeans/Downloads/breakfast/Dday/app/src/main/res/layout/activity_breakfast_arroz_caldo.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/Downloads/breakfast/Dday/app/src/main/res/layout/activity_item1.xml" value="0.3092075125973431" />
+        <entry key="..\:/Users/jeans/Downloads/breakfast/Dday/app/src/main/res/layout/activity_item2.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/Downloads/breakfast/Dday/app/src/main/res/layout/activity_notify.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/Downloads/breakfast/Dday/app/src/main/res/layout/activity_open.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/Downloads/breakfast/Dday/app/src/main/res/layout/activity_splash_screen.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/Downloads/breakfast/Dday/app/src/main/res/layout/activity_update.xml" value="0.3515625" />
+        <entry key="..\:/Users/jeans/Downloads/breakfast/Dday/app/src/main/res/layout/activity_x.xml" value="0.3515625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

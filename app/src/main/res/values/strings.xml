@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Lutong Pinoy</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tempText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</string>
+    <string name="tempDate">23rd June, 2022</string>
+    <string name="createNoteText">Go To Create Notes</string>
+    <string name="title">Title*</string>
+    <string name="subtitle">Subtitle*</string>
+    <string name="notes">Notes*</string>
+    <string name="save_notes">Save Notes</string>
+    <string name="no">Cancel</string>
+    <string name="are_you_sure_you_want_to_delete_n_this_note">Delete this note?</string>
+    <string name="yes">Continue</string>
+    <string name="notes_app">Lutong Pinoy</string>
+    <string name="make_a_note_of_all_important_stuffs">Make a note of all important stuffs</string>
+
+    <string name="food">Adobo</string>
+
+    <!--    <string-array name="Meal_Type">-->
+    <!--        <item>Breakfast</item>-->
+    <!--        <item>Lunch and Dinner</item>-->
+    <!--        <item>Desserts and Appetizers</item>-->
+    <!--    </string-array>-->
+
+    <string name="Break_1_Arroz_Caldo">Sample</string>
+
+    <!--  Notification  -->
+    <string name="teit_error_text">Please insert title*</string>
+    <string name="del_reminder_dialog_negative_button">Cancel</string>
+    <string name="ra_empty_state_title">No Reminders</string>
+    <string name="ra_empty_state_text">Add a reminder and it will appear here</string>
+    <string name="ra_copy_confirmation_text">Text copied</string>
+    <string name="delete_reminder_dialog_title">Delete this Meal Plan?</string>
+    <string name="delete_reminder_dialog_message">This action cannot be undone</string>
+    <string name="delete_reminder_dialog_positive_button">Delete</string>
+    <string name="copy">Copy</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="new_reminder">new Reminder</string>
+    <string name="reminder_set_c">Meal Plan Created</string>
+    <string name="channel_name">Reminder Notification</string>
+    <string name="channel_description">Reminders</string>
+    <string name="r_r_title">rRTitle</string>
+    <string name="notification_ctitle">Reminder</string>
+    <string name="Date">MM/dd/yyyy</string>
+    <string name="help_activity_action_bar_title">Help</string>
+    <string name="send_feedback">Send Feedback</string>
+
+    <string name="update_app_informative_text">A new version is available</string>
+    <string name="update_app_button_text">UPDATE</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    //Onboarding Screens
+    //Headings
+    <string name="heading_one">Welcome</string>
+    <string name="heading_two">Search Recipes</string>
+    <string name="heading_three">Save Recipes</string>
+    <string name="heading_fourth">Schedule Meals</string>
+
+    //Description
+    <string name="desc_one">Lutong Pinoy is a mobile Filipino recipe app\n that can help you plan and prepare meals.</string>
+    <string name="desc_two">You can browse through multiple Filipino recipes with the search feature.</string>
+    <string name="desc_three">You can create and save your own recipes in\n the app. You can also share recipes to your friends and family with the share feature.</string>
+    <string name="desc_fourth">You can prepare and schedule your own meals using the meal planner feature.</string>
+
+</resources>

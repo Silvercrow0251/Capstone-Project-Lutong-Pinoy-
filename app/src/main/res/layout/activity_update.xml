@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity"
+    android:background="@color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp">
+
+
+        <EditText
+            android:id="@+id/Update_Title_calendar"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:fontFamily="@font/poppins"
+            android:hint="Title*"
+            android:inputType="textPersonName"
+            android:maxLength="25"
+            android:maxLines="1"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="8dp"
+            android:textColor="#4a4b4d"
+            android:textColorHint="@drawable/selector"
+            android:textSize="16dp"
+
+
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#EDF0F3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Update_Title_calendar" />
+
+        <EditText
+            android:id="@+id/Update_Date_calendar"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="40dp"
+            android:background="@color/white"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:fontFamily="@font/poppins"
+            android:hint="- Select Date -"
+            android:inputType="textPersonName"
+            android:maxLength="25"
+            android:maxLines="1"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:paddingRight="15dp"
+
+            android:paddingBottom="8dp"
+            android:textColor="@drawable/selector"
+            android:textColorHint="@drawable/selector"
+            android:textSize="16dp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Update_Title_calendar" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#EDF0F3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Update_Date_calendar" />
+
+        <EditText
+            android:id="@+id/Update_Time_calendar"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="40dp"
+            android:background="@color/white"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:fontFamily="@font/poppins"
+            android:hint="- Select Time -"
+            android:inputType="textPersonName"
+            android:maxLength="25"
+            android:maxLines="1"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:paddingRight="15dp"
+
+            android:paddingBottom="8dp"
+            android:textColor="@drawable/selector"
+
+            android:textColorHint="@drawable/selector"
+            android:textSize="16dp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Update_Date_calendar" />
+
+<!--        //Add to Google Calendar-->
+<!--        <Button-->
+<!--            android:layout_width="20dp"-->
+<!--            android:layout_height="20dp"-->
+<!--            android:layout_marginRight="15dp"-->
+<!--            android:background="@drawable/ic_notification"-->
+<!--            android:onClick="AddCalendarEvent"-->
+<!--            android:src="@drawable/ic_notification"-->
+<!--            app:layout_constraintBottom_toBottomOf="@+id/Update_Title_calendar"-->
+<!--            app:layout_constraintEnd_toEndOf="@+id/Update_Title_calendar"-->
+<!--            app:layout_constraintTop_toTopOf="@+id/Update_Title_calendar"-->
+<!--            tools:ignore="OnClick" />-->
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#EDF0F3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Update_Time_calendar" />
+
+        <ImageView
+            android:id="@+id/add_date2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="15dp"
+            android:background="@null"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/ic_calendar_31"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/Update_Date_calendar"
+            app:layout_constraintEnd_toEndOf="@+id/Update_Date_calendar"
+            app:layout_constraintTop_toTopOf="@+id/Update_Date_calendar" />
+
+        <ImageView
+            android:id="@+id/add_time2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="15dp"
+            android:background="@null"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/ic_date_time"
+            android:text="Time"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/Update_Time_calendar"
+            app:layout_constraintEnd_toEndOf="@+id/Update_Time_calendar"
+            app:layout_constraintTop_toTopOf="@+id/Update_Time_calendar" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/update_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="15dp"
+            android:layout_marginEnd="4dp"
+            android:contentDescription="@string/save_notes"
+            android:src="@drawable/ic_baseline_done_24"
+            app:backgroundTint="@color/Orange"
+            app:backgroundTintMode="screen"
+            app:layout_constraintBottom_toTopOf="@+id/view4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:maxImageSize="28dp"
+            app:tint="@android:color/white"
+            tools:ignore="RtlHardcoded" />
+
+<!--        <ImageView-->
+<!--            android:id="@+id/notified"-->
+<!--            android:layout_width="20dp"-->
+<!--            android:layout_height="20dp"-->
+<!--            android:background="#00FC6011"-->
+<!--            android:onClick="sendOnChannel1"-->
+<!--            android:text="Send on Channel 1"-->
+<!--            android:translationZ="90dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="@+id/update_button"-->
+<!--            app:layout_constraintEnd_toEndOf="@+id/update_button"-->
+<!--            app:layout_constraintStart_toStartOf="@+id/update_button"-->
+<!--            app:layout_constraintTop_toTopOf="@+id/update_button"-->
+<!--            app:tint="@color/white" />-->
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_marginBottom="80dp"
+            android:background="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <!--        <Button-->
+        <!--            android:id="@+id/delete_button"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="70dp"-->
+        <!--            android:layout_marginTop="20dp"-->
+        <!--            android:text="Delete"-->
+        <!--            android:textAllCaps="false"-->
+        <!--            android:textSize="20sp"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintHorizontal_bias="0.5"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toBottomOf="@+id/view3" />-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        app:itemIconSize="19.8dp"
+
+        app:itemIconTint="@drawable/bottom_nav_colors"
+        app:itemTextColor="@drawable/bottom_nav_colors"
+        app:labelVisibilityMode="unlabeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/bottom_nav_menu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

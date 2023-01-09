@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent">-->
+    <!--        -->
+    <!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+    <TextView
+        android:id="@+id/action_bar_title_tvw"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="1"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center_vertical"
+        android:text="Create Meal Plan"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+        android:textColor="@color/Orange"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:elevation="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/action_bar_close_button"
+                android:layout_width="?attr/actionBarSize"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/white"
+                android:tint="@color/black"
+                app:srcCompat="@drawable/ic_baseline_back" />
+
+
+            <!--            <Button-->
+            <!--                android:id="@+id/action_bar_save_button"-->
+            <!--                style="@style/Widget.AppCompat.Button.Borderless"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:gravity="center"-->
+            <!--                android:paddingLeft="2dp"-->
+            <!--                android:paddingRight="2dp"-->
+            <!--                android:text="SAVE"-->
+            <!--                android:textColor="@android:color/white" />-->
+
+        </LinearLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nested_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="50dp"
+        android:scrollbars="none"
+        android:scrollingCache="true"
+        app:layout_constraintBottom_toBottomOf="@+id/appBarLayout"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="8dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/nr_title_til"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/poppins"
+                android:hint="@string/title"
+                android:textSize="16dp"
+                android:textColor="#4a4b4d"
+                android:paddingTop="8dp"
+                app:hintAnimationEnabled="false"
+                app:hintEnabled="false">
+
+
+                <EditText
+                    android:id="@+id/nr_title_tiet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:inputType="text"
+
+                    android:textColorHint="#D7696A6C"
+                    android:fontFamily="@font/poppins"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/title"
+                    android:maxLength="30"
+                    android:maxLines="1"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="4dp"
+                    android:paddingRight="12dp"
+                    android:paddingBottom="16dp"
+                    android:textAlignment="textStart"
+                    android:textSize="16dp"
+                    android:textColor="#4a4b4d"
+                    app:boxStrokeColor="#7c7d7e" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <view
+                class="android.view.View"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#EDF0F3" />
+
+            <LinearLayout
+                android:id="@+id/new_reminder_date_layout"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="16dp"
+                android:paddingTop="12dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="12dp"
+                android:weightSum="100">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="95"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingTop="12dp"
+                    android:paddingRight="16dp"
+                    android:paddingBottom="12dp"
+                    android:weightSum="100">
+
+
+                    <TextView
+                        android:id="@+id/nrdl_date_label_tvw"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="65"
+                        android:fontFamily="@font/poppins"
+                        android:gravity="left"
+                        android:text="Date"
+                        android:textColor="#7c7d7e"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/nrdl_date_value_tvw"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="35"
+                        android:fontFamily="@font/poppins"
+                        android:gravity="right"
+                        android:text="MM/dd/yyyy"
+                        android:textColor="#7c7d7e"
+                        android:textSize="16dp" />
+
+
+                </LinearLayout>
+
+
+                <ImageView
+                    android:id="@+id/nrdl_icon"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:src="@drawable/ic_calendar_31"
+                    app:tint="@color/Orange" />
+
+
+            </LinearLayout>
+
+            <view
+                class="android.view.View"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#EDF0F3" />
+
+
+            <LinearLayout
+                android:id="@+id/new_reminder_time_layout"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="16dp"
+                android:paddingTop="12dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="12dp"
+                android:weightSum="100">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="95"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingTop="12dp"
+                    android:paddingRight="16dp"
+                    android:paddingBottom="12dp"
+                    android:weightSum="100">
+
+
+                    <TextView
+                        android:id="@+id/nrtl_time_label_tvw"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="65"
+                        android:fontFamily="@font/poppins"
+                        android:gravity="left"
+                        android:text="Time"
+                        android:textColor="#7c7d7e"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/nrtl_time_value_tvw"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="35"
+                        android:fontFamily="@font/poppins"
+                        android:gravity="right"
+                        android:text="HH:mm"
+                        android:textColor="#7c7d7e"
+                        android:textSize="16dp" />
+
+
+                </LinearLayout>
+
+
+                <ImageView
+                    android:id="@+id/nrtl_icon"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:src="@drawable/ic_date_time"
+                    app:tint="@color/Orange" />
+
+
+            </LinearLayout>
+
+            <view
+                class="android.view.View"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#EDF0F3" />
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <view
+        class="android.view.View"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/pressBack"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="15dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/save_notes"
+        android:elevation="0dp"
+        android:onClick="sendOnChannel1"
+        android:src="@drawable/ic_baseline_back"
+        android:text="Send on Channel 1"
+        app:backgroundTint="@color/white"
+        app:backgroundTintMode="screen"
+        app:elevation="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@android:color/black"
+        tools:ignore="RtlHardcoded" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/action_bar_save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="15dp"
+        android:contentDescription="@string/save_notes"
+        android:onClick="sendOnChannel1"
+        android:src="@drawable/ic_baseline_done_24"
+        android:text="Send on Channel 1"
+        app:backgroundTint="@color/Orange"
+        app:backgroundTintMode="screen"
+        app:layout_constraintBottom_toTopOf="@+id/view4"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:maxImageSize="28dp"
+        app:tint="@android:color/white"
+        tools:ignore="RtlHardcoded" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginBottom="77.6dp"
+        android:background="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

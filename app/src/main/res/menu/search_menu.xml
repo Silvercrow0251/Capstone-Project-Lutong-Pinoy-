@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_find"
+        android:title="Search"
+        app:showAsAction="always|collapseActionView"
+        android:iconTint="@color/white"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+
+    <item
+        android:icon="@drawable/ic_dots"
+        android:title="Menu"
+        app:showAsAction="always">
+        <menu>
+
+            <item
+                android:id="@+id/about"
+                android:orderInCategory="1"
+                android:title="About" />
+
+            <item
+                android:id="@+id/tutorial"
+                android:orderInCategory="1"
+                android:title="Developer" />
+
+            <item
+                android:id="@+id/share_app"
+                android:orderInCategory="1"
+                android:title="Share App" />
+        </menu>
+    </item>
+
+</menu>

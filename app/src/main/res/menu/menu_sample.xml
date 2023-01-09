@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/delete_all"
+        android:title="Delete All"
+        android:icon="@drawable/ic_delete"
+        app:showAsAction="always"/>
+
+    <item
+        android:icon="@drawable/ic_dots"
+        android:title="Menu"
+        app:showAsAction="always">
+        <menu>
+
+            <item
+                android:id="@+id/about"
+                android:orderInCategory="1"
+                android:title="About" />
+
+            <item
+                android:id="@+id/tutorial"
+                android:orderInCategory="1"
+                android:title="Developer" />
+
+            <item
+                android:id="@+id/share_app"
+                android:orderInCategory="1"
+                android:title="Share App" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mHome"
+        android:icon="@drawable/home_selector"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/mSearch"
+        android:icon="@drawable/ic_find"
+        android:title="Search" />
+
+    <item
+        android:id="@+id/mNotes"
+        android:icon="@drawable/ic_notes"
+        android:title="Notes" />
+
+    <item
+        android:id="@+id/mCalendar"
+        android:icon="@drawable/ic_calendar_v2"
+        android:title="Calendar" />
+
+
+</menu>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#262625</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background_color">@color/white</color>
+    <color name="grey_color">#E6E6E6</color>
+    <color name="hint_color">#7c7d7e</color>
+    <color name="dark_grey_color">#DCDCDC</color>
+
+    <!-- Priority color-->
+    <color name="green_color">#7BB662</color>
+    <color name="yellow_color">#FFD301</color>
+    <color name="red_color">#FF0057</color>
+    <color name="pink_color">#E91E63</color>
+
+    <!-- Bottom nav color-->
+    <color name="bottom_nav_background">@color/white</color>
+    <color name="nav_gray">#7c7d7e</color>
+    <color name="bottom_nav_item">@color/black</color>
+    <color name="bottom_nav_selected_item">#fc6011</color>
+    <color name="fragment_bg_color">@color/white</color>
+
+    <!-- Card Colors-->
+    <color name="card1">#f9cc86</color>
+    <color name="card2">#F9D030</color>
+    <color name="card3">#FFFFFF</color>
+    <color name="card4">#B8EE30</color>
+    <color name="card5">#967137</color>
+    <color name="card6">#26DFD0</color>
+    <color name="card7">#bd00ff</color>
+    <color name="card8">#ACEEF3</color>
+    <color name="card9">#99FF5600</color>
+    <color name="card10">#DAD870</color>
+
+    <!-- Theme Color-->
+    <color name="colorPrimary">@color/white</color>
+    <color name="colorPrimaryDark">#fc6011</color>
+    <color name="colorPrimaryVariant">#fc6011</color>
+    <color name="colorAccent">#fc6011</color>
+    <color name="ActionBarTitleColor">@color/Orange</color>
+    <color name="Orange">#fc6011</color>
+
+
+    <!-- Theme Notifications-->
+    <color name="recyclerViewItemSelectionColor">#40FC6011</color>
+    <color name="mediumEmphasisTextColor">#99000000</color>
+    <color name="highEmphasisTextColor">#de000000</color>
+    <color name="black_overlay">#66000000</color>
+
+    //onboarding colors
+    <color name="background">#F0F4F3</color>
+    <color name="buttontext">#fc6011</color>
+
+    //indicator color
+    <color name="inactive">#7c7d7e</color>
+    <color name="inactiv">#A5A5A5</color>
+    <color name="active">#fc6011</color>
+</resources>

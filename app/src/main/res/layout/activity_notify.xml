@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Notify">
+
+    <EditText
+        android:id="@+id/Add_Title_calendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title*" />
+
+    <EditText
+        android:id="@+id/Add_Date_calendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="- Select Date -" />
+
+    <EditText
+        android:id="@+id/Add_Time_calendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="- Select Time -" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:tint="@color/white"
+        android:onClick="sendOnChannel1"
+        android:text="Send on Channel 1"
+
+        android:layout_gravity="bottom|right"
+        android:layout_margin="15dp"
+        android:contentDescription="@string/save_notes"
+        android:src="@drawable/ic_baseline_done_24"
+        app:backgroundTint="@color/Orange"
+        app:backgroundTintMode="screen"
+        app:layout_constraintBottom_toTopOf="@+id/view4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:maxImageSize="28dp"
+        app:tint="@android:color/white"
+        tools:ignore="RtlHardcoded" />
+
+</LinearLayout>

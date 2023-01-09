@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="1dp"
+
+    android:layout_marginLeft="17dp"
+    android:layout_marginRight="17dp"
+
+    android:background="@color/white"
+    android:clickable="true"
+
+    android:foreground="?attr/selectableItemBackground"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="1dp"
+    >
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/relativeLayout_breakfast_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="@color/white"
+
+        app:layout_constraintBottom_toBottomOf="@id/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtbreakfast"
+        tools:ignore="NotSibling">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="93dp"
+            android:layout_height="93dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/adobo"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/roundimageview"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/txt1breakfast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:fontFamily="@font/poppins"
+            android:text="Breakfast"
+            android:textColor="#fc6011"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/tvName"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt1breakfast"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Chicken Adobo"
+            android:textColor="#4a4b4d"
+            android:textSize="14dp"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toBottomOf="@+id/txt1breakfast" />
+
+        <TextView
+            android:id="@+id/tvServe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvName"
+            android:layout_marginStart="6dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:fontFamily="@font/poppins"
+            android:paddingTop="5dp"
+            android:text="Serves 6"
+            android:textColor="#7c7d7e"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/imgServe_breakfast"
+            app:layout_constraintTop_toBottomOf="@+id/tvName" />
+
+        <ImageView
+            android:id="@+id/imgServe_breakfast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tvServe"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="1dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:src="@drawable/ic_serve"
+            app:layout_constraintBottom_toBottomOf="@+id/tvServe"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toBottomOf="@+id/tvName" />
+
+        <TextView
+            android:id="@+id/tvDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvName"
+            android:layout_marginStart="6dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:fontFamily="@font/poppins"
+            android:paddingTop="5dp"
+            android:text="1hr 10min"
+            android:textColor="#7c7d7e"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvServe"
+            app:layout_constraintStart_toEndOf="@+id/cook_time_breakfast"
+            app:layout_constraintTop_toTopOf="@+id/tvServe"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/cook_time_breakfast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tvServe"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:src="@drawable/ic_total"
+            app:layout_constraintBottom_toBottomOf="@+id/imgServe_breakfast"
+            app:layout_constraintStart_toEndOf="@+id/tvServe"
+            app:layout_constraintTop_toTopOf="@+id/imgServe_breakfast"
+            app:layout_constraintVertical_bias="1.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/tvFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="98dp"
+        android:layout_marginTop="1dp"
+        android:text="Food Name"
+        android:textColor="#FFFFFF"
+        android:textSize="5sp" />
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,201 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Dday" parent="Theme.MaterialComponents.Light.DarkActionBar.Bridge">
+        <item name="actionOverflowMenuStyle">@style/popupOverflowMenu</item>
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/colorAccent</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="titleTextColor">@color/ActionBarTitleColor</item>
+<!--        <item name="android:editTextColor">@android:color/holo_purple</item>-->
+<!--        <item name="android:textColorHint">@android:color/black</item>-->
+<!--                <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back</item>-->
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="actionOverflowButtonStyle">@style/IconOverflow</item>
+        <!--        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back</item>-->
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/black</item>
+        <!-- Hint Color -->
+        <item name="android:actionBarWidgetTheme">@style/Theme.MyTheme.Widget</item>
+        <!--        <item name="android:textColorHint">@color/colorAccent</item>-->
+        <!--        <item name="android:editTextColor">@color/colorAccent</item> &lt;!&ndash;Allow to change the editText color&ndash;&gt;-->
+        <!--        <item name="actionBarStyle">@style/myActionBarStyle</item>-->
+        <item name="actionBarSize">60dp</item>
+        <!--        <item name="android:textSize">16dp</item>-->
+        <!--        <item name="android:windowTitleSize">58dip</item>-->
+    </style>
+
+    <style name="BottomSheetStyle" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Modal</item>
+    </style>
+
+    <style name="CustomAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/colorAccent</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="titleTextColor">@color/ActionBarTitleColor</item>
+        <item name="android:windowBackground">@drawable/popup_background</item>
+    </style>
+
+    <style name="Modal" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/delete_sheet</item>
+    </style>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="titleTextColor">@color/bottom_nav_selected_item</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">16sp</item>
+
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <!--        <item name="android:paddingStart">10dip</item>-->
+        <!--        <item name="android:paddingEnd">10dip</item>-->
+    </style>
+
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title." parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Dark" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="titleTextColor">@color/bottom_nav_selected_item</item>
+        <!--        <item name="android:paddingStart">10dip</item>-->
+        <!--        <item name="android:paddingEnd">10dip</item>-->
+    </style>
+
+    <!-- Corner Radius Image. -->
+    <style name="roundimageview" parent="">
+
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">6dp</item>
+        <item name="color">@color/white</item>
+
+    </style>
+
+    <style name="IconOverflow" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">@android:color/black</item>
+    </style>
+
+    <style name="Theme.MyTheme.Widget" parent="@android:style/Theme.Holo">
+        <item name="android:textColorHint">@android:color/white</item>
+        <!-- your other custom widget styles -->
+    </style>
+
+
+    <style name="Material" parent="Theme.AppCompat.Light">
+        <item name="actionOverflowMenuStyle">@style/popupOverflowMenu</item>
+<!--        <item name="popupMenuBackground">@drawable/menu_background</item>-->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/colorAccent</item>
+        <item name="colorOnPrimary">@color/colorAccent</item>
+
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="colorSecondaryVariant">@color/colorAccent</item>
+        <item name="colorOnSecondary">@color/colorAccent</item>
+        <!--        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back</item>-->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!--        <item name="titleTextColor">@color/ActionBarTitleColor</item>-->
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+
+        <item name="colorAccent">@color/black</item>
+        <item name="titleTextColor">@color/colorAccent</item>
+        <item name="actionBarSize">60dp</item>
+        <!--        <item name="android:textSize">58sp</item>-->
+        <!--        <item name="fontFamily">@font/poppins_semibold</item>-->
+        <!--        <item name="android:textSize">12sp</item>-->
+    </style>
+
+
+<!--    <style name="BottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">-->
+<!--        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>-->
+<!--    </style>-->
+
+<!--    <style name="BottomSheetStyle_v2" parent="Widget.Design.BottomSheet.Modal">-->
+<!--        <item name="android:background">@android:color/transparent</item>-->
+<!--    </style>-->
+
+    <style name="SplashScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="colorPrimary">@color/Orange</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/white</item>
+
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@null</item>
+        <!--        <item name="android:paddingStart">10dip</item>-->
+        <!--        <item name="android:paddingEnd">10dip</item>-->
+    </style>
+
+    <style name="Sample" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:editTextColor">@android:color/white</item>
+    </style>
+
+    <style name="Notification" parent="Theme.AppCompat.Light">
+        <item name="actionOverflowMenuStyle">@style/popupOverflowMenu</item>
+<!--        <item name="android:itemBackground">@drawable/menu_background</item>-->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/colorAccent</item>
+        <item name="colorOnPrimary">@color/colorAccent</item>
+
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="colorSecondaryVariant">@color/colorAccent</item>
+        <item name="colorOnSecondary">@color/colorAccent</item>
+        <!--        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back</item>-->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!--        <item name="titleTextColor">@color/ActionBarTitleColor</item>-->
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+
+        <item name="colorAccent">@color/Orange</item>
+        <item name="titleTextColor">@color/colorAccent</item>
+        <item name="actionBarSize">60dp</item>
+        <!--        <item name="android:textSize">58sp</item>-->
+        <!--        <item name="fontFamily">@font/poppins_semibold</item>-->
+        <!--        <item name="android:textSize">12sp</item>-->
+
+    </style>
+
+    <style name="Theme.SwipeFOX" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/Orange</item>
+        <item name="colorPrimaryVariant">@color/Orange</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/Orange</item>
+        <item name="colorSecondaryVariant">@color/Orange</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!--  Customize Options Menu  -->
+    <style name="popupOverflowMenu" parent="@style/Widget.MaterialComponents.PopupMenu.Overflow">
+        <item name="android:popupBackground">@drawable/menu_background</item>
+    </style>
+
+</resources>

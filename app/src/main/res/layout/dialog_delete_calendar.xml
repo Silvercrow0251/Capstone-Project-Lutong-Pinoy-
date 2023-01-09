@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/bottomSheetContainer"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="80dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:background="@drawable/line" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/pop_regular"
+        android:gravity="center"
+        android:text="@string/are_you_sure_you_want_to_delete_n_this_note"
+        android:textColor="#4a4b4d"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/delete_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/no_btn"
+        android:fontFamily="@font/pop_regular"
+        android:textColor="#7c7d7e"
+        android:gravity="center"
+
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp"
+
+        android:text="@string/no"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/delete_yes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/yes_btn"
+        android:fontFamily="@font/pop_regular"
+        android:gravity="center"
+
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp"
+
+        android:text="@string/yes"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
