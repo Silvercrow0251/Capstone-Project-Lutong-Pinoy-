@@ -1,7 +1,7 @@
 # Capstone-Project-Lutong-Pinoy-
 Lutong Pinoy is a mobile Filipino recipe app that can help users plan and prepare meals.
 
-<img align="left" width="100" height="100" src="https://user-images.githubusercontent.com/77614961/211268807-f3573839-09d8-467c-8920-8b8cd45dcf48.png">
+<img align="left" width="100" src="https://user-images.githubusercontent.com/77614961/211268807-f3573839-09d8-467c-8920-8b8cd45dcf48.png">
 ![Artboard 0](https://user-images.githubusercontent.com/77614961/211268807-f3573839-09d8-467c-8920-8b8cd45dcf48.png)
 ![Artboard 1](https://user-images.githubusercontent.com/77614961/211268824-1e32f3c1-b96c-4c44-a46d-d2e9a12c8db2.png)
 ![Artboard 2](https://user-images.githubusercontent.com/77614961/211268840-41f3dddd-677e-43f2-83b1-c541fd3dee6c.png)
